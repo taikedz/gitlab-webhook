@@ -1,0 +1,135 @@
+{
+  "object_kind": "merge_request",
+  "event_type": "merge_request",
+  "user": {
+    "name": "Administrator",
+    "username": "root",
+    "avatar_url": "https://secure.gravatar.com/avatar/e64c7d89f26bxxxxxxxxxxxxxxxxdd61?s=80&d=identicon"
+  },
+  "project": {
+    "id": 189,
+    "name": "MyRepo",
+    "description": "A repository for my work",
+    "web_url": "https://gitlab.example.com/GLProject/MyRepo",
+    "avatar_url": null,
+    "git_ssh_url": "git@gitlab.example.com:GLProject/MyRepo.git",
+    "git_http_url": "https://gitlab.example.com/GLProject/MyRepo.git",
+    "namespace": "GL Project Space",
+    "visibility_level": 20,
+    "path_with_namespace": "GLProject/MyRepo",
+    "default_branch": "master",
+    "ci_config_path": null,
+    "homepage": "https://gitlab.example.com/GLProject/MyRepo",
+    "url": "git@gitlab.example.com:GLProject/MyRepo.git",
+    "ssh_url": "git@gitlab.example.com:GLProject/MyRepo.git",
+    "http_url": "https://gitlab.example.com/GLProject/MyRepo.git"
+  },
+  "object_attributes": {
+    "assignee_id": 31,
+    "author_id": 2,
+    "created_at": "2018-06-08 11:12:48 UTC",
+    "description": "The reload script needs to access a `update.sh` script in the repo, here it is",
+    "head_pipeline_id": null,
+    "id": 331,
+    "iid": 1,
+    "last_edited_at": null,
+    "last_edited_by_id": null,
+    "merge_commit_sha": null,
+    "merge_error": null,
+    "merge_params": {
+      "force_remove_source_branch": "1"
+    },
+    "merge_status": "can_be_merged",
+    "merge_user_id": null,
+    "merge_when_pipeline_succeeds": false,
+    "milestone_id": null,
+    "source_branch": "add-updater",
+    "source_project_id": 189,
+    "state": "opened",
+    "target_branch": "master",
+    "target_project_id": 189,
+    "time_estimate": 0,
+    "title": "simple update script",
+    "updated_at": "2018-06-08 11:12:48 UTC",
+    "updated_by_id": null,
+    "url": "https://gitlab.example.com/GLProject/MyRepo/merge_requests/1",
+    "source": {
+      "id": 189,
+      "name": "MyRepo",
+      "description": "A repository for my work",
+      "web_url": "https://gitlab.example.com/GLProject/MyRepo",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.example.com:GLProject/MyRepo.git",
+      "git_http_url": "https://gitlab.example.com/GLProject/MyRepo.git",
+      "namespace": "GL Project Space",
+      "visibility_level": 20,
+      "path_with_namespace": "GLProject/MyRepo",
+      "default_branch": "master",
+      "ci_config_path": null,
+      "homepage": "https://gitlab.example.com/GLProject/MyRepo",
+      "url": "git@gitlab.example.com:GLProject/MyRepo.git",
+      "ssh_url": "git@gitlab.example.com:GLProject/MyRepo.git",
+      "http_url": "https://gitlab.example.com/GLProject/MyRepo.git"
+    },
+    "target": {
+      "id": 189,
+      "name": "MyRepo",
+      "description": "A repository for my work",
+      "web_url": "https://gitlab.example.com/GLProject/MyRepo",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.example.com:GLProject/MyRepo.git",
+      "git_http_url": "https://gitlab.example.com/GLProject/MyRepo.git",
+      "namespace": "GL Project Space",
+      "visibility_level": 20,
+      "path_with_namespace": "GLProject/MyRepo",
+      "default_branch": "master",
+      "ci_config_path": null,
+      "homepage": "https://gitlab.example.com/GLProject/MyRepo",
+      "url": "git@gitlab.example.com:GLProject/MyRepo.git",
+      "ssh_url": "git@gitlab.example.com:GLProject/MyRepo.git",
+      "http_url": "https://gitlab.example.com/GLProject/MyRepo.git"
+    },
+    "last_commit": {
+      "id": "556f23dbcff87b9ca4901435662075f5d56e162a",
+      "message": "simple update script\n",
+      "timestamp": "2018-06-08T12:11:18+01:00",
+      "url": "https://gitlab.example.com/GLProject/MyRepo/commit/556f23dbcff87b9ca4xxxxxxxxxxxxxxd56e162a",
+      "author": {
+        "name": "Test User",
+        "email": "user@example.com"
+      }
+    },
+    "work_in_progress": false,
+    "total_time_spent": 0,
+    "human_total_time_spent": null,
+    "human_time_estimate": null
+  },
+  "labels": [
+
+  ],
+  "changes": {
+    "assignee": {
+      "previous": null,
+      "current": {
+        "name": "Repo Master",
+        "username": "mrmaster",
+        "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/31/avatar.png"
+      }
+    },
+    "total_time_spent": {
+      "previous": null,
+      "current": 0
+    }
+  },
+  "repository": {
+    "name": "MyRepo",
+    "url": "git@gitlab.example.com:GLProject/MyRepo.git",
+    "description": "A repository for my work",
+    "homepage": "https://gitlab.example.com/GLProject/MyRepo"
+  },
+  "assignee": {
+    "name": "Repo Master",
+    "username": "mrmaster",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/31/avatar.png"
+  }
+}

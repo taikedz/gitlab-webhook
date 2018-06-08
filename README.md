@@ -7,7 +7,7 @@ Scenario:
 3. Upon merging, you fire off a web integration hook to your target server
 4. On the target server, the local copy of the repository is updated
 
-This mini project provides
+This mini project provides the assets for achieving 3 and 4
 
 * a PHP endpoint to call in the Gitlab integration - deploy this in a web server
 * An example of a runner - add it to `/usr/local/bin/runner.sh`, modify it as needed
@@ -25,3 +25,15 @@ Example installation steps:
     sudo cp web/*.php /var/www/html/
 
     # And then edit your deployed /var/www/html/project-mapping.php
+
+## Gitlab setup
+
+* In your project, go to `Settings > Integrations`
+
+* Choose to add a web hook, at the URL where you deployed the listening script `reload.php`
+
+* Choose to only accept merge requests
+
+* Add the token that you set in `project-mapping.php`
+
+* Clone your repository to the location desired, and specified in `project-mapping.php`

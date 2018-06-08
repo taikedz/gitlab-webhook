@@ -24,7 +24,18 @@ Example installation steps:
     sudo cp configs/www-data.sudo /etc/sudoers.d/
     sudo cp web/*.php /var/www/html/
 
+    # Separate step, don't do this if you do not want to overwrite your config
+    sudo cp web/project-mapping.php.example /var/www/html/project-mapping.php
+
     # And then edit your deployed /var/www/html/project-mapping.php
+
+## Runner
+
+The default runner script runs a git pull as a specified user in the target repo directory.
+
+If it finds a `webupdate.sh` script at the top level of the directory, it runs that script too.
+
+It is recommended you be very careful with what you allow the runner to do, as it runs as root itself -- be wary of what you do with any external input to the script!
 
 ## Gitlab setup
 

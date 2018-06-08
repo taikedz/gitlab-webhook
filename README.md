@@ -2,14 +2,14 @@
 
 Scenario:
 
-1. You have code in a Gitlab repository
+1. You have code in a Gitlab or Github repository
 2. You branch and merge-request back to master
 3. Upon merging, you fire off a web integration hook to your target server
 4. On the target server, the local copy of the repository is updated
 
 This mini project provides the assets for achieving 3 and 4
 
-* a PHP endpoint to call in the Gitlab integration - deploy this in a web server
+* a PHP endpoint to call in the Git/web integration - deploy this in a web server
 * An example of a runner - add it to `/usr/local/bin/runner.sh`, modify it as needed
 * A `www-data.sudo` snippet to allow the webserver to run the updates as a different user
     * it is recommended you adapt the user accordingly
